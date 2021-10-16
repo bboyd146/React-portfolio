@@ -2,7 +2,7 @@
 import React from 'react'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
     { name: 'Contact', href: '#', current: true },
@@ -32,8 +32,8 @@ export default function Navbar() {
                                     )}
                                 </Disclosure.Button>
                             </div>
-                            <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                                <div className="hidden sm:block sm:ml-6">
+                            <div className="flex-1 flex items-center justify-center md:items-stretch ">
+                                <div className="hidden md:block sm:ml-6">
                                     <div className="flex space-x-4">
                                         {navigation.map((item) => (
                                             <a
@@ -54,7 +54,6 @@ export default function Navbar() {
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
 
-                                {/* Profile dropdown */}
                                 <Menu as="div" className="ml-3 relative">
                                     <Transition
                                         as={Fragment}
