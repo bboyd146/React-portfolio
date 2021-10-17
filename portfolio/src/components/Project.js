@@ -1,13 +1,14 @@
-import progress from '../images/progress.png'
-import workout from '../images/workout.png'
+import progress from '../images/progress.png';
+import workout from '../images/workout.png';
+
 const projects = [
     {
         id: 1,
         name: 'Progressive Budget',
         href: '#',
         price: '$48',
-        imageSrc: {progress},
-        imageAlt: 'This project is designed to allow a user to budget their finances by adding or deducting funds. This is a PWA which allows a user to have all functionality of the application on or offline. If the user loses connection for any reason, their data is stored and is retrieved once back online.',
+        imageSrc: { progress },
+        imageAlt: 'pwa app screenshot',
     },
     {
         id: 2,
@@ -53,7 +54,7 @@ export default function Project() {
                                 />
                             </div>
                             <h3 className="mt-4 text-sm text-gray-700">{project.name}</h3>
-                            {/* <p className="mt-1 text-lg font-medium text-gray-900">{project.price}</p> */}
+                            <p className="mt-1 text-lg font-medium text-gray-900">{project.price}</p>
                         </a>
                     ))}
                 </div>
