@@ -5,10 +5,9 @@ import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Contact', href: '#', current: true },
+    { name: 'About', href: '#', current: false },
+    { name: 'Projects', href: '#', current: false },
 ]
 
 export default function Home() {
