@@ -1,24 +1,25 @@
-
+import progress from '../images/progress.png'
+import workout from '../images/workout.png'
 const projects = [
     {
         id: 1,
         name: 'Progressive Budget',
         href: '#',
         price: '$48',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        imageSrc: {progress},
         imageAlt: 'This project is designed to allow a user to budget their finances by adding or deducting funds. This is a PWA which allows a user to have all functionality of the application on or offline. If the user loses connection for any reason, their data is stored and is retrieved once back online.',
     },
     {
         id: 2,
-        name: 'Nomad Tumbler',
+        name: 'Workout Tracker',
         href: '#',
         price: '$35',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+        imageSrc: {workout},
+        imageAlt: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts. When the user hits the landing page, they are able to post a new workout and view their progress chart on the dashboard page.',
     },
     {
         id: 3,
-        name: 'Focus Paper Refill',
+        name: 'E-Commerce',
         href: '#',
         price: '$89',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
@@ -52,7 +53,7 @@ export default function Example() {
                                 />
                             </div>
                             <h3 className="mt-4 text-sm text-gray-700">{project.name}</h3>
-                            <p className="mt-1 text-lg font-medium text-gray-900">{project.price}</p>
+                            {/* <p className="mt-1 text-lg font-medium text-gray-900">{project.price}</p> */}
                         </a>
                     ))}
                 </div>
