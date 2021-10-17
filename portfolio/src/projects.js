@@ -2,7 +2,8 @@ export const projects = [
     {
         id: 1,
         name: 'Progressive Budget',
-        href: '#',
+        gHref: 'https://github.com/bboyd146/on-offline-budget-tracker.git',
+        dHref: 'https://intense-mountain-44618.herokuapp.com/',
         price: 'This pwa app is designed to allow a user to budget their finances by adding or deducting funds on/offline.',
         imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
@@ -10,7 +11,8 @@ export const projects = [
     {
         id: 2,
         name: 'Workout Tracker',
-        href: '#',
+        gHref: 'https://github.com/bboyd146/workout-tracker.git',
+        dHref: 'https://fathomless-depths-92066.herokuapp.com/',
         price: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts.',
         imageSrc: './workout.png',
         imageAlt: 'workout tracker screenshot',
@@ -18,7 +20,8 @@ export const projects = [
     {
         id: 3,
         name: 'Cats-n-Dogs',
-        href: '#',
+        gHref: 'https://github.com/bboyd146/Catz-n-Dogz.git',
+        dHref: 'https://catz-n-dogz1.herokuapp.com/',
         price: 'A fullstack group project focused on building an application that would allow users to find/post lost or stray animals in their neighborhood or area to help find them a home',
         imageSrc: 'https://user-images.githubusercontent.com/53482411/131909367-02c7a2dc-90b9-4e0c-afca-5f6ed5a28d1f.png',
         imageAlt: 'Cats-n-Dogs app screenshot',
@@ -26,7 +29,8 @@ export const projects = [
     {
         id: 4,
         name: 'Work Day Scheduler',
-        href: '#',
+        gHref: 'https://github.com/bboyd146/work-day-scheduler.git',
+        dHref: 'https://bboyd146.github.io/work-day-scheduler/',
         price: 'A simple calendar application that allows a user to save events for each hour of the day',
         imageSrc: './scheduler.png',
         imageAlt: 'Work day scheduler screenshot',
@@ -34,7 +38,8 @@ export const projects = [
     {
         id: 5,
         name: 'Password Generator',
-        href: '#',
+        gHref: 'https://github.com/bboyd146/password-generator.git',
+        dHref: 'https://bboyd146.github.io/password-generator/',
         price: 'An application designed to generate a random password based off of user input',
         imageSrc: './password.png',
         imageAlt: 'Password generator screenshot',
@@ -42,7 +47,8 @@ export const projects = [
     {
         id: 6,
         name: 'Employee Tracker',
-        href: '#',
+        gHref: 'https://drive.google.com/file/d/1o5MKdk2P0zLRiqoCtMnfMocd8b1BfnD3/view',
+        dHref: 'https://drive.google.com/file/d/1o5MKdk2P0zLRiqoCtMnfMocd8b1BfnD3/view',
         price: 'This project is a CLI content management system for managing a company\'s employees using node, inquirer, and MySQL',
         imageSrc: './employee.gif',
         imageAlt: 'Gif for employee tracker',
