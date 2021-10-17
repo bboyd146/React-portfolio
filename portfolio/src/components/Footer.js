@@ -1,15 +1,15 @@
 function Footer() {
     return (
         <div>
-            <footer class="footer bg-dark relative pt-1 border-b-2 ">
+            <footer class="footer bg-white relative pt-1 ">
                 <div class="container mx-auto px-6 items-center">
                     <div class="mt-28 pb-20 border-t-2 border-gray-300 flex flex-col items-center">
                         <div class="sm:w-2/3 text-center py-6">
-                            <div class="flex flex-wrap justify-center gap-2 pt-2">
+                            <div class="flex flex-wrap justify-center gap-6 pt-2">
                                 <a href="https://www.linkedin.com/in/bradley-boyd-a91073210/">
                                     <button class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
                                         <svg
-                                            class="w-5 h-5 fill-current"
+                                            class="w-10 h-10 fill-current"
                                             role="img"
                                             viewBox="0 0 256 256"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ function Footer() {
                                             xmlns="http://www.w3.org/2000/svg"
                                             aria-hidden="true"
                                             role="img"
-                                            class="w-5"
+                                            class="w-10"
                                             preserveAspectRatio="xMidYMid meet"
                                             viewBox="0 0 24 24"
                                         >
@@ -43,8 +43,8 @@ function Footer() {
                                         </svg>
                                     </button>
                                 </a>
-                                <div class="container mx-auto px-6 items-center pt-3">
-                                    <p class="text-sm text-white font-bold mb-2">
+                                <div class="container mx-auto px-6 items-center pt-6">
+                                    <p class="text-sm text-dark font-bold mb-2">
                                         © 2021 by Bradley Boyd
                                     </p>
                                 </div>
