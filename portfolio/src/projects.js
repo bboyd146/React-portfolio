@@ -4,7 +4,7 @@ export const projects = [
         name: 'Progressive Budget',
         href: '#',
         price: '$48',
-        imageSrc: { progress },
+        imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         name: 'Workout Tracker',
         href: '#',
         price: '$35',
-        imageSrc: {workout},
+        imageSrc: './workout.png',
         imageAlt: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts. When the user hits the landing page, they are able to post a new workout and view their progress chart on the dashboard page.',
     },
     {
