@@ -6,8 +6,10 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
 
+
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('About');
+    console.log(currentPage)
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;

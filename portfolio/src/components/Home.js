@@ -4,13 +4,9 @@ import { Popover, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
 
-const navigation = [
-    { name: 'Contact', href: '#contact', current: true },
-    { name: 'About', href: '#about', current: false },
-    { name: 'Projects', href: '#projects', current: false },
-]
 
-export default function Home({currentPage, handlePageChange}) {
+
+export default function Home() {
     return (
         <div className="relative bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
@@ -57,19 +53,6 @@ export default function Home({currentPage, handlePageChange}) {
                                                 <XIcon className="h-6 w-6" aria-hidden="true" />
                                             </Popover.Button>
                                         </div>
-                                    </div>
-                                    <div className="px-2 pt-2 pb-3 space-y-1">
-                                        {navigation.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                onClick={() => handlePageChange(item.name)}
-                                                href={item.href}
-                                                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                                            >
-                                                {currentPage === item.name ? item.current === true : item.current === false}
-                                                {item.name}
-                                            </a>
-                                        ))}
                                     </div>
                                 </div>
                             </Popover.Panel>
