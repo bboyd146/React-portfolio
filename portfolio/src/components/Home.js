@@ -5,12 +5,12 @@ import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
 
 const navigation = [
-    { name: 'Contact', href: '#', current: true },
-    { name: 'About', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
+    { name: 'Contact', href: '#contact', current: true },
+    { name: 'About', href: '#about', current: false },
+    { name: 'Projects', href: '#projects', current: false },
 ]
 
-export default function Home() {
+export default function Home({currentPage, handlePageChange}) {
     return (
         <div className="relative bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
@@ -62,19 +62,15 @@ export default function Home() {
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}
+                                                onClick={() => handlePageChange(item.name)}
                                                 href={item.href}
                                                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                                             >
+                                                {currentPage === item.name ? item.current === true : item.current === false}
                                                 {item.name}
                                             </a>
                                         ))}
                                     </div>
-                                    <a
-                                        href="#"
-                                        className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-                                    >
-                                        Log in
-                                    </a>
                                 </div>
                             </Popover.Panel>
                         </Transition>

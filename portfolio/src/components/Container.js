@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Project from "./Project";
 import Contact from "./Contact";
 import About from "./About";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import Footer from "./Footer";
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -22,8 +25,10 @@ export default function Container() {
 
     return (
         <div>
-            <About currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Home />
             {renderPage()}
+            <Footer />
         </div>
     );
 }
