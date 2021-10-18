@@ -3,10 +3,11 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
+import resume from '../images/Resume.pdf'
 
 
 
-export default function Home() {
+export default function Home({currentPage ,handlePageChange}) {
     return (
         <div className="relative bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
@@ -69,17 +70,9 @@ export default function Home() {
                                 Full-Stack web developer passionate about learning new skills and languages. Check out my resume and past projects !
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                                <div className="rounded-md shadow">
-                                    <a
-                                        href="#"
-                                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-800 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                                    >
-                                        Projects
-                                    </a>
-                                </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
-                                        href="#"
+                                        href={resume}
                                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                                     >
                                         Resume
