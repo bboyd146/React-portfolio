@@ -18,6 +18,7 @@ npm install
 
 ## Usage 
 run npm start
+![localhost_3000_](https://user-images.githubusercontent.com/82745040/137676875-9c042298-026d-4f4b-bd15-f73ed4b51976.png)
 
 
 ## License 
