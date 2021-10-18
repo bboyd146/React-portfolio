@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "./Project";
 import Contact from "./Contact";
+import About from "./About";
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -21,7 +22,7 @@ export default function Container() {
 
     return (
         <div>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <About currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
     );
