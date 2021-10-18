@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PaperClipIcon } from '@heroicons/react/solid'
+import resume from '../images/Resume.pdf'
 
 export default function Contact() {
     return (
@@ -27,7 +28,7 @@ export default function Contact() {
                                         <span className="ml-2 flex-1 w-0 truncate">resume.pdf</span>
                                     </div>
                                     <div className="ml-4 flex-shrink-0">
-                                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                        <a href={resume} className="font-medium text-indigo-600 hover:text-indigo-500">
                                             Download
                                         </a>
                                     </div>
