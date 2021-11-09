@@ -5,16 +5,6 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
-// const navigation = [
-//     { name: 'Contact', href: '#contact', current: false },
-//     { name: 'About', href: '#about', current: true },
-//     { name: 'Projects', href: '#projects', current: false },
-// ]
-
-// function classNames(...classes) {
-//     return classes.filter(Boolean).join(' ')
-// }
-
 export default function Navbar({currentPage, handlePageChange}) {
     return (
         <Disclosure as="nav" className="bg-gray-800">
@@ -65,6 +55,16 @@ export default function Navbar({currentPage, handlePageChange}) {
                                     }
                                 >
                                     Contact
+                                </a>
+                                <a
+                                    href='#skills'
+                                    onClick= {() => handlePageChange('Skills')}
+                                    className={(currentPage === 'Skills'
+                                        ? 'bg-gray-900 text-white'
+                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
+                                    }
+                                >
+                                    Skills
                                 </a>
                                     </div>
                                 </div>

@@ -5,6 +5,7 @@ import About from "./About";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
+import Index from "./Skills";
 
 
 export default function Container() {
@@ -13,6 +14,9 @@ export default function Container() {
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
+        }
+        if (currentPage === 'Skills') {
+            return <Index />;
         }
         if (currentPage === 'Project') {
             return <Project />;
