@@ -5,7 +5,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
-export default function Navbar({currentPage, handlePageChange}) {
+export default function Navbar({ currentPage, handlePageChange }) {
     return (
         <Disclosure as="nav" className="bg-gray-800">
             {({ open }) => (
@@ -26,46 +26,46 @@ export default function Navbar({currentPage, handlePageChange}) {
                             <div className="flex-1 flex items-center justify-center md:items-stretch ">
                                 <div className="hidden md:block sm:ml-6">
                                     <div className="flex space-x-4">
-                                    <a
-                                    href='#projects'
-                                    onClick= {() => handlePageChange('Project')}
-                                    className={(currentPage === 'Project'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    Projects
-                                </a>
-                                <a
-                                    href='#about'
-                                    onClick= {() => handlePageChange('About')}
-                                    className={(currentPage === 'About'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    About
-                                </a>
-                                <a
-                                    href='#contact'
-                                    onClick= {() => handlePageChange('Contact')}
-                                    className={(currentPage === 'Contact'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    Contact
-                                </a>
-                                <a
-                                    href='#skills'
-                                    onClick= {() => handlePageChange('Skills')}
-                                    className={(currentPage === 'Skills'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    Skills
-                                </a>
+                                        <a
+                                            href='#projects'
+                                            onClick={() => handlePageChange('Project')}
+                                            className={(currentPage === 'Project'
+                                                ? 'bg-gray-900 text-white'
+                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                            }
+                                        >
+                                            Projects
+                                        </a>
+                                        <a
+                                            href='#about'
+                                            onClick={() => handlePageChange('About')}
+                                            className={(currentPage === 'About'
+                                                ? 'bg-gray-900 text-white'
+                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                            }
+                                        >
+                                            About
+                                        </a>
+                                        <a
+                                            href='#contact'
+                                            onClick={() => handlePageChange('Contact')}
+                                            className={(currentPage === 'Contact'
+                                                ? 'bg-gray-900 text-white'
+                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                            }
+                                        >
+                                            Contact
+                                        </a>
+                                        <a
+                                            href='#skills'
+                                            onClick={() => handlePageChange('Skills')}
+                                            className={(currentPage === 'Skills'
+                                                ? 'bg-gray-900 text-white'
+                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                            }
+                                        >
+                                            Skills
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -90,37 +90,47 @@ export default function Navbar({currentPage, handlePageChange}) {
 
                     <Disclosure.Panel className="sm:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1">
-                        <a
-                                    href='#projects'
-                                    onClick= {() => handlePageChange('Project')}
-                                    className={(currentPage === 'Project'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                    aria-current='true'
-                                >
-                                    Projects
-                                </a>
-                                <a
-                                    href='#about'
-                                    onClick= {() => handlePageChange('About')}
-                                    className={(currentPage === 'About'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    About
-                                </a>
-                                <a
-                                    href='#contact'
-                                    onClick= {() => handlePageChange('Contact')}
-                                    className={(currentPage === 'Contact'
-                                        ? 'bg-gray-900 text-white'
-                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white','block px-3 py-2 rounded-md text-base font-medium')
-                                    }
-                                >
-                                    Contact
-                                </a>
+                            <a
+                                href='#projects'
+                                onClick={() => handlePageChange('Project')}
+                                className={(currentPage === 'Project'
+                                    ? 'bg-gray-900 text-white'
+                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                }
+                                aria-current='true'
+                            >
+                                Projects
+                            </a>
+                            <a
+                                href='#about'
+                                onClick={() => handlePageChange('About')}
+                                className={(currentPage === 'About'
+                                    ? 'bg-gray-900 text-white'
+                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                }
+                            >
+                                About
+                            </a>
+                            <a
+                                href='#contact'
+                                onClick={() => handlePageChange('Contact')}
+                                className={(currentPage === 'Contact'
+                                    ? 'bg-gray-900 text-white'
+                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                }
+                            >
+                                Contact
+                            </a>
+                            <a
+                                href='#skills'
+                                onClick={() => handlePageChange('Skills')}
+                                className={(currentPage === 'Skills'
+                                    ? 'bg-gray-900 text-white'
+                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')
+                                }
+                            >
+                                Skills
+                            </a>
                         </div>
                     </Disclosure.Panel>
                 </>

@@ -5,7 +5,7 @@ import About from "./About";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
-import Index from "./Skills";
+import Skills from "./Skills";
 
 
 export default function Container() {
@@ -16,7 +16,7 @@ export default function Container() {
             return <About />;
         }
         if (currentPage === 'Skills') {
-            return <Index />;
+            return <Skills />;
         }
         if (currentPage === 'Project') {
             return <Project />;
