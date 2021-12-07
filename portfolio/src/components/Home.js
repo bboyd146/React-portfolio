@@ -6,7 +6,6 @@ import me from '../images/me.jpeg'
 import resume from '../images/U2.pdf'
 
 
-
 export default function Home({currentPage ,handlePageChange}) {
     return (
         <div className="relative bg-white overflow-hidden">
