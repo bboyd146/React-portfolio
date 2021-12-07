@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
-import resume from '../images/U-Resume.pdf'
+import resume from '../images/U2.pdf'
 
 
 

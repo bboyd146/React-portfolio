@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PaperClipIcon } from '@heroicons/react/solid'
-import resume from '../images/U-Resume.pdf'
+import resume from '../images/U2.pdf'
 
 export default function Contact() {
     return (
