@@ -8,7 +8,6 @@ export default function About() {
                     <h2 className="sr-only">Me</h2>
                     <p className="mt-3 text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 ">
                         Full Stack Software Developer currently working as a TA (Teaching Assistant) at Rice University's Online Coding Boot Camp. With the experience I've gained through working in the Software Development industry - I've gained skills necessary to build, design, and implement new technologies for a user-friendly full stack application.
-
                         I'm looking forward to building more projects to hone my skills and become a better developer as time progresses!</p>
                 </div>
             </div>
