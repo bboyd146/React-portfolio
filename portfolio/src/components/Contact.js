@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PaperClipIcon } from '@heroicons/react/solid'
-import resume from '../images/U2.pdf'
+import resume from '../images/2U.pdf'
 
 export default function Contact() {
     return (
@@ -21,11 +21,11 @@ export default function Contact() {
                     <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                         <dt className="text-sm font-medium text-gray-500">Attachments</dt>
                         <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                            <ul role="list" className="border border-gray-200 rounded-md divide-y divide-gray-200">
+                            <ul className="border border-gray-200 rounded-md divide-y divide-gray-200">
                                 <li className="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                                     <div className="w-0 flex-1 flex items-center">
                                         <PaperClipIcon className="flex-shrink-0 h-5 w-5 text-gray-400" aria-hidden="true" />
-                                        <span className="ml-2 flex-1 w-0 truncate">resume.pdf</span>
+                                        <span className="ml-2 flex-1 w-0 truncate">Resume.pdf</span>
                                     </div>
                                     <div className="ml-4 flex-shrink-0">
                                         <a href={resume} className="font-medium text-indigo-600 hover:text-indigo-500">

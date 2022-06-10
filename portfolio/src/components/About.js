@@ -7,8 +7,9 @@ export default function About() {
                 <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="sr-only">Me</h2>
                     <p className="mt-3 text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 ">
-                        An up and coming Software Developer who’s currently attending Rice University’s Online Coding Bootcamp. Apart from my driving experience from previous employment, I'm learning new skills to become a polished Full Stack Developer. I have the skills necessary to build a full stack application, which includes Front & Back End development.
-                        I'm looking forward to build more projects to hone my skills and become a better developer as time goes on!</p>
+                        Full Stack Software Developer currently working as a TA (Teaching Assistant) at Rice University's Online Coding Boot Camp. With the experience I've gained through working in the Software Development industry - I've gained skills necessary to build, design, and implement new technologies for a user-friendly full stack application.
+
+                        I'm looking forward to building more projects to hone my skills and become a better developer as time progresses!</p>
                 </div>
             </div>
         </>

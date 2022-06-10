@@ -22,7 +22,7 @@ export const projects = [
         name: 'Cats-n-Dogs',
         gHref: 'https://github.com/bboyd146/Catz-n-Dogz.git',
         dHref: 'https://catz-n-dogz1.herokuapp.com/',
-        price: 'A fullstack group project focused on building an application that would allow users to find/post lost or stray animals in their neighborhood or area to help find them a home',
+        price: 'A fullstack project focused on allowing users to find/post lost or stray animals in their neighborhood or area to help find them a home',
         imageSrc: 'https://user-images.githubusercontent.com/53482411/131909367-02c7a2dc-90b9-4e0c-afca-5f6ed5a28d1f.png',
         imageAlt: 'Cats-n-Dogs app screenshot',
     },
