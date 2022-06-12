@@ -10,7 +10,6 @@ import Skills from "./Skills";
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('About');
-    console.log(currentPage)
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
