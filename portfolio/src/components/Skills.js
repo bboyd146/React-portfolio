@@ -11,7 +11,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/r/63/react.svg" alt="React logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/r/63/react.svg" alt="React logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -22,7 +22,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/g/23/graphql.svg" alt="Graphql logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/g/23/graphql.svg" alt="Graphql logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -33,7 +33,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/g/15/git-icon.svg" alt="Git logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/g/15/git-icon.svg" alt="Git logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -44,7 +44,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg" alt="Github logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg" alt="Github logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -55,7 +55,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/h/32/heroku.svg" alt="Heroku logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/h/32/heroku.svg" alt="Heroku logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -66,7 +66,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/h/84/html.svg" alt="HTML logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/h/84/html.svg" alt="HTML logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -77,7 +77,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0  rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/c/18/css.svg" alt="Css logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/c/18/css.svg" alt="Css logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -88,7 +88,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/b/74/bootstrap-5.svg" alt="Bootstrap logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/b/74/bootstrap-5.svg" alt="Bootstrap logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -99,7 +99,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/j/69/javascript.svg" alt="logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/j/69/javascript.svg" alt="logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -110,7 +110,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/j/45/jquery.svg" alt="Jquery logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/j/45/jquery.svg" alt="Jquery logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -121,7 +121,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/n/88/nodejs.svg" alt="Node logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/n/88/nodejs.svg" alt="Node logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -132,7 +132,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/m/25/mongodb.svg" alt="Mongodb logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/m/25/mongodb.svg" alt="Mongodb logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -143,11 +143,22 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src="https://cdn.cdnlogo.com/logos/m/10/mysql.svg" alt="mySQL logo"/>
+                                        <img src="https://cdn.cdnlogo.com/logos/m/10/mysql.svg" alt="mySQL logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                                     mySQL
+                                </h4>
+                            </div>
+                            <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
+                                <div className="w-20 h-20 relative ml-6">
+                                    <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
+                                    <div className="text-white absolute bottom-0 left-0  rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                        <img src="https://cdn.cdnlogo.com/logos/s/12/sequelize.svg" alt="Sequelize logo" />
+                                    </div>
+                                </div>
+                                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                                    Sequelize
                                 </h4>
                             </div>
                             <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
