@@ -11,6 +11,7 @@ This is a portfolio showcasing my past projects and current resume. This project
 - [License](#License)
 - [Badges](#Badges)
 - [Questions](#Questions)
+- [Deployed Link](#Deployed-Link)
 
 ## Installation 
 cd into portfolio  
@@ -40,4 +41,7 @@ Github username: bboyd146
 Link to Github: (https://github.com/bboyd146)  
 
 Email: braddboyd5@gmail.com  
-Instructions on how to contact: click email link and make sure to include subject  
+Instructions on how to contact: click email link and make sure to include subject 
+
+## Deployed Link
+(https://bboyd146.github.io/React-portfolio/)
