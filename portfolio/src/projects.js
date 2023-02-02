@@ -3,7 +3,7 @@ export const projects = [
         id: 1,
         name: 'Progressive Budget',
         gHref: 'https://github.com/bboyd146/on-offline-budget-tracker.git',
-        dHref: 'https://intense-mountain-44618.herokuapp.com/',
+        dHref: 'https://on-offline-budget-tracker.onrender.com',
         price: 'This pwa app is designed to allow a user to budget their finances by adding or deducting funds on/offline.',
         imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
