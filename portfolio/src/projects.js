@@ -12,7 +12,7 @@ export const projects = [
         id: 2,
         name: 'Workout Tracker',
         gHref: 'https://github.com/bboyd146/workout-tracker.git',
-        dHref: 'https://fathomless-depths-92066.herokuapp.com/',
+        dHref: 'https://workout-tracker-p8aj.onrender.com',
         price: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts.',
         imageSrc: './workout.png',
         imageAlt: 'workout tracker screenshot',
