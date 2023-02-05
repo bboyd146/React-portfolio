@@ -1,12 +1,34 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
+import { useEffect, useRef, Fragment } from "react";
 import { Popover, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
 import resume from '../images/2U.pdf'
+import Typed from 'typed.js'
 
 
-export default function Home({currentPage ,handlePageChange}) {
+export default function Home({ currentPage, handlePageChange }) {
+    const el = useRef(null);
+
+    useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ["Front-end Developer", "Back-end Developer", "Passionate learner", "Programming Teaching Assistant"],
+            // Speed settings, try diffrent values untill you get good results
+            startDelay: 100,
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 100,
+            loop: true,
+            showCursor: false
+        });
+
+
+        // return () => {
+        //     typed.destroy();
+        // };
+    }, );
+
+
     return (
         <div className="relative bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
@@ -63,11 +85,8 @@ export default function Home({currentPage ,handlePageChange}) {
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                                 <span className="block xl:inline">Bradley Boyd</span>{' '}
-                                <span className="block text-yellow-600 :inline">Full Stack Web Developer</span>
+                                <span ref={el}className="block text-yellow-600 :inline"></span>
                             </h1>
-                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Full-Stack web developer passionate about learning new skills and languages. Check out my resume and past projects !
-                            </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
