@@ -19,12 +19,12 @@ export const projects = [
     },
     {
         id: 3,
-        name: 'Cats-n-Dogs',
-        gHref: 'https://github.com/bboyd146/Catz-n-Dogz.git',
-        dHref: 'https://catz-n-dogz1.herokuapp.com/',
-        price: 'A fullstack project focused on allowing users to find/post lost or stray animals in their neighborhood or area to help find them a home',
-        imageSrc: 'https://user-images.githubusercontent.com/53482411/131909367-02c7a2dc-90b9-4e0c-afca-5f6ed5a28d1f.png',
-        imageAlt: 'Cats-n-Dogs app screenshot',
+        name: 'Cosmic Records',
+        gHref: 'https://github.com/bboyd146/cosmic-repo.git',
+        dHref: 'https://cosmic-repo.onrender.com',
+        price: 'This e-commerce project is designed to allow music lovers and collectors to search and purchase vinyls to add to their collection. More of a proof of concept - stripe technology incorporated to process payments.',
+        imageSrc: './cosmic.png',
+        imageAlt: 'Cosmic Records app screenshot',
     },
     {
         id: 4,
