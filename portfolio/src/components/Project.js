@@ -25,16 +25,18 @@ export default function Project() {
                                             </div>
                                             <div className=" border-gray-400 lg:border-l-0  lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                                                 <div className="mb-8">
-
                                                     <div className="text-yellow-900 font-bold text-4xl mb-2">{project.name}</div>
-                                                    <p className="text-gray-700 text-base">{project.price}</p>
+                                                    <p className="text-gray-700 text-base">{project.desc}</p>
                                                 </div>
                                                 <div className="flex items-center pt-5">
-
                                                     <div className="text-sm mb-5">
                                                         <p className="text-gray-900 leading-loose text-lg">Technologies Used:</p>
-                                                        <p className="text-gray-600">Aug 18</p>
-                                                        {projects.map((project) => (project.dHref))}
+                                                        <div className="w-full xl:w-2/3 flex-col md:flex-row justify-center xl:justify-end flex md:pl-6">
+                                                            {project.tech.map((type, index) => {
+                                                                return <div className="flex items-center justify-center xl:justify-start mt-1 md:mt-0 mb-5 md:mb-0"><span className="text-sm bg-red-300 text-white px-5 py-1 font-sm rounded-md m-2" key={index}>{type}</span>
+                                                                </div>
+                                                            })}
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div className="pt-10 sm:mt-0 sm:ml-3 flex flex-row">
