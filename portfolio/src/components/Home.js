@@ -13,7 +13,6 @@ export default function Home({ currentPage, handlePageChange }) {
     useEffect(() => {
         const typed = new Typed(el.current, {
             strings: ["Front-end Developer", "Back-end Developer", "Passionate learner", "Programming Teaching Assistant"],
-            // Speed settings, try diffrent values untill you get good results
             startDelay: 100,
             typeSpeed: 100,
             backSpeed: 100,
@@ -23,9 +22,9 @@ export default function Home({ currentPage, handlePageChange }) {
         });
 
 
-        // return () => {
-        //     typed.destroy();
-        // };
+        return () => {
+            typed.destroy();
+        };
     }, );
 
 
