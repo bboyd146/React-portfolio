@@ -7,7 +7,7 @@ export const projects = [
         desc: 'This e-commerce project is designed to allow music lovers and collectors to search and purchase vinyls to add to their collection. More of a proof of concept - stripe technology incorporated to process payments.',
         imageSrc: './cosmic.png',
         imageAlt: 'Cosmic Records app screenshot',
-        tech: ['React', 'Tailwind', 'JWT', 'Express', 'Node', 'Apollo', 'MongoDB', 'ApolloGraphql', 'Redux', 'Stripe']
+        tech: ['React', 'Tailwind', 'JWT', 'MongoDB', 'ApolloGraphql', 'Redux', 'Stripe']
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const projects = [
         desc: 'This pwa app is designed to allow a user to budget their finances by adding or deducting funds on/offline.',
         imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
-        tech: ['Javascript', 'CSS', 'Express', 'Webpack', 'Html5', 'MongoDB', 'Mongoose', 'Node']
+        tech: ['Webpack','MongoDB', 'Mongoose',]
     },
     {
         id: 3,

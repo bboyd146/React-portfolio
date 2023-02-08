@@ -28,10 +28,10 @@ export default function Project() {
                                                     <div className="text-yellow-900 font-bold text-4xl mb-2">{project.name}</div>
                                                     <p className="text-gray-700 text-base">{project.desc}</p>
                                                 </div>
-                                                <div className="flex items-center pt-5">
+                                                <div className="flex items-center pt-5 flex-row sm:flex-wrap md:flex-wrap">
                                                     <div className="text-sm mb-5">
                                                         <p className="text-gray-900 leading-loose text-lg">Technologies Used:</p>
-                                                        <div className="w-full xl:w-2/3 flex-col md:flex-row justify-center xl:justify-end flex md:pl-6">
+                                                        <div className="flex md:flex-wrap justify-center xl:justify-end sm:flex-wrap">
                                                             {project.tech.map((type, index) => {
                                                                 return <div className="flex items-center justify-center xl:justify-start mt-1 md:mt-0 mb-5 md:mb-0"><span className="text-sm bg-red-300 text-white px-5 py-1 font-sm rounded-md m-2" key={index}>{type}</span>
                                                                 </div>
@@ -39,10 +39,10 @@ export default function Project() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="pt-10 sm:mt-0 sm:ml-3 flex flex-row">
-                                                    <a href={project.gHref} className="w-10 flex items-center justify-center  border border-transparent text-xs font-sm mx-10 rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10">
+                                                <div className="pt-10 md:mt-0 md:ml-3 flex flex-row sm:items-center sm:justify-center">
+                                                    <a href={project.gHref} className="w-10 flex items-center justify-center  border border-transparent text-xs font-sm mx-10 rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10 sm:px-5">
                                                         <button>Git Link</button></a>
-                                                    <a href={project.dHref} className="w-5 flex items-center  justify-center  border border-transparent text-xs font-sm rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10">
+                                                    <a href={project.dHref} className="w-10 flex items-center  justify-center  border border-transparent text-xs font-sm rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10">
                                                         <button>Live Link</button></a>
                                                 </div>
                                             </div>
