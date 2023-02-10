@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Project from "./Project";
-import Contact from "./Contact";
 import About from "./About";
 import Navbar from "./Navbar";
-import Home from "./Home";
 import Footer from "./Footer";
 import Skills from "./Skills";
 
@@ -20,9 +18,6 @@ export default function Container() {
         if (currentPage === 'Project') {
             return <Project />;
         }
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
         return <About />
     };
 
@@ -31,7 +26,6 @@ export default function Container() {
     return (
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-            <Home />
             {renderPage()}
             <Footer />
         </div>

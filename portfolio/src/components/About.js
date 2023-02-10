@@ -1,7 +1,11 @@
+import Home from "./Home";
+
+
 
 export default function About() {
     return (
         <>
+        <Home />
             <h1 className="border-t-2 border-gray-300 text-4xl tracking-tight bg-white font-extrabold flex-1 flex items-center justify-center pt-10 text-pink-700 sm:text-5xl md:text-6xl">About Me</h1>
             <div className="bg-white">
                 <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">

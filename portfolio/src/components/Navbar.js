@@ -47,16 +47,6 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                             About
                                         </a>
                                         <a
-                                            href='#contact'
-                                            onClick={() => handlePageChange('Contact')}
-                                            className={(currentPage === 'Contact'
-                                                ? 'bg-gray-900 text-white'
-                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
-                                            }
-                                        >
-                                            Contact
-                                        </a>
-                                        <a
                                             href='#skills'
                                             onClick={() => handlePageChange('Skills')}
                                             className={(currentPage === 'Skills'
@@ -110,16 +100,6 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                 }
                             >
                                 About
-                            </a>
-                            <a
-                                href='#contact'
-                                onClick={() => handlePageChange('Contact')}
-                                className={(currentPage === 'Contact'
-                                    ? 'bg-gray-900 text-white'
-                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
-                                }
-                            >
-                                Contact
                             </a>
                             <a
                                 href='#skills'

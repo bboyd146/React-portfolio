@@ -3,7 +3,7 @@ import Container from "./components/Container";
 
 function App() {
   useEffect(() => {
-    document.title = 'React portfolio';
+    document.title = 'My portfolio';
   }, []);
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
