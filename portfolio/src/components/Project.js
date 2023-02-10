@@ -39,7 +39,7 @@ export default function Project() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="pt-10 md:mt-0 md:ml-3 flex flex-row sm:items-center sm:justify-center">
+                                                <div className="pt-10 md:mt-0 md:ml-3 flex items-center justify-center flex-row sm:items-center sm:justify-center">
                                                     <a href={project.gHref} className="w-10 flex items-center justify-center  border border-transparent text-xs font-sm mx-10 rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10 sm:px-5">
                                                         <button>Git Link</button></a>
                                                     <a href={project.dHref} className="w-10 flex items-center  justify-center  border border-transparent text-xs font-sm rounded-md text-white bg-pink-900 hover:bg-indigo-200 md:py-4 md:text-xs md:px-10">

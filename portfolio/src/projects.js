@@ -14,7 +14,7 @@ export const projects = [
         name: 'Progressive Budget',
         gHref: 'https://github.com/bboyd146/on-offline-budget-tracker.git',
         dHref: 'https://on-offline-budget-tracker.onrender.com',
-        desc: 'This pwa app is designed to allow a user to budget their finances by adding or deducting funds on/offline.',
+        desc: 'This project is designed to allow a user to budget their finances by adding or deducting funds. This is a PWA which allows a user to have all functionality of the application on or offline. If the user loses connection for any reason, their data is stored and is retrieved once back online.',
         imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
         tech: ['Webpack','MongoDB', 'Mongoose',]
@@ -24,7 +24,7 @@ export const projects = [
         name: 'Workout Tracker',
         gHref: 'https://github.com/bboyd146/workout-tracker.git',
         dHref: 'https://workout-tracker-p8aj.onrender.com',
-        desc: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts.',
+        desc: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts. When the user hits the landing page, they are able to post a new workout and view their progress chart on the dashboard page.',
         imageSrc: './workout.png',
         imageAlt: 'workout tracker screenshot',
         tech: ['Javascript', 'CSS', 'Express', 'Node', 'Mongoose', 'Chart.js']
