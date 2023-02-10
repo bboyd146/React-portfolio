@@ -20,7 +20,7 @@ export default function Project() {
                                                 <img
                                                     src={project.imageSrc}
                                                     alt={project.imageAlt}
-                                                    className="w-full h-48 object-left object-cover group-hover:opacity-75"
+                                                    className="w-full object-left object-cover group-hover:opacity-75"
                                                 />
                                             </div>
                                             <div className=" border-gray-400 lg:border-l-0  lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
