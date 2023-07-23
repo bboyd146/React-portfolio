@@ -7,7 +7,7 @@ export const projects = [
         desc: 'This e-commerce project is designed to allow music lovers and collectors to search and purchase vinyls to add to their collection. More of a proof of concept - stripe technology incorporated to process payments.',
         imageSrc: './cosmic.png',
         imageAlt: 'Cosmic Records app screenshot',
-        tech: ['React', 'Tailwind', 'JWT', 'MongoDB', 'ApolloGraphql', 'Redux', 'Stripe']
+        tech: ['React/Redux', 'MongoDB', 'Stripe']
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const projects = [
         desc: 'This project is designed to allow a user to budget their finances by adding or deducting funds. This is a PWA which allows a user to have all functionality of the application on or offline. If the user loses connection for any reason, their data is stored and is retrieved once back online.',
         imageSrc: './progress.png',
         imageAlt: 'pwa app screenshot',
-        tech: ['Webpack','MongoDB', 'Mongoose',]
+        tech: ['Webpack','MongoDB', 'Mongoose']
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const projects = [
         desc: 'This Full-stack project is designed to allow a user to post and keep track of previous workouts. When the user hits the landing page, they are able to post a new workout and view their progress chart on the dashboard page.',
         imageSrc: './workout.png',
         imageAlt: 'workout tracker screenshot',
-        tech: ['Javascript', 'CSS', 'Express', 'Node', 'Mongoose', 'Chart.js']
+        tech: ['Express', 'Mongoose']
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const projects = [
         desc: 'This project is a CLI content management system for managing a company\'s employees using node, inquirer, and MySQL',
         imageSrc: './employee.gif',
         imageAlt: 'Gif for employee tracker',
-        tech: ['Javascript', 'MySQL', 'Express', 'Node', 'Inquirer']
+        tech: ['MySQL', 'Express', 'Inquirer']
     },
     {
         id: 5,

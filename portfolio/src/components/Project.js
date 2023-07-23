@@ -1,5 +1,6 @@
 
 import { projects } from '../projects';
+// import Tech from './Tech';
 
 
 
@@ -33,7 +34,7 @@ export default function Project() {
                                                         <p className="text-gray-900 leading-loose text-lg">Technologies Used:</p>
                                                         <div className="flex md:flex-wrap justify-center xl:justify-end sm:flex-wrap">
                                                             {project.tech.map((type, index) => {
-                                                                return <div className="flex items-center justify-center xl:justify-start mt-1 md:mt-0 mb-5 md:mb-0"><span className="text-sm bg-red-300 text-white px-5 py-1 font-sm rounded-md m-2" key={index}>{type}</span>
+                                                                return <div className="flex items-center justify-center xl:justify-start mt-1 md:mt-0 mb-5 md:mb-0 sm:justify-center"><span className="text-sm bg-red-300 text-white px-5 py-1 font-sm rounded-md m-2" key={index}>{type}</span>
                                                                 </div>
                                                             })}
                                                         </div>
@@ -46,8 +47,6 @@ export default function Project() {
                                                         <button>Live Link</button></a>
                                                 </div>
                                             </div>
-                                            {/* <h3 className="mt-4 text-sm text-gray-700">{project.name}</h3>
-                                            <p className="mt-1 text-lg font-medium text-gray-900">{project.price}</p> */}
                                         </div>
                                     </a>
                                 </>
