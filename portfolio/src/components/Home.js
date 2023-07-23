@@ -3,7 +3,7 @@ import { useEffect, useRef, Fragment } from "react";
 import { Popover, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import me from '../images/me.jpeg'
-import resume from '../images/2U.pdf'
+import resume from '../images/resume.pdf'
 import Typed from 'typed.js'
 
 
