@@ -14,3 +14,25 @@
         opacity: 1;
     }
 }
+
+.home {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Initially off-screen to the left */
+    transition: opacity 1s ease, transform 1s ease; /* Slide and fade animation */
+}
+
+.home.visible {
+    opacity: 1; /* Visible when in viewport */
+    transform: translateX(0); /* Slide in from the left */
+}
+
+.about {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Initially off-screen to the left */
+    transition: opacity 1s ease, transform 1s ease; /* Slide and fade animation */
+}
+
+.about.visible {
+    opacity: 1; /* Visible when in viewport */
+    transform: translateX(0); /* Slide in from the left */
+}
