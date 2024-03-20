@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ["./src/**/*.{html,js}"],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -7,8 +8,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    // ...
-    require('@tailwindcss/aspect-ratio'),
-  ],
+  // plugins: {
+  //   tailwindcss: {},
+  //   autoprefixer: {},
+  // }
 }
