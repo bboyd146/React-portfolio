@@ -30,7 +30,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                             href='#projects'
                                             onClick={() => handlePageChange('Project')}
                                             className={(currentPage === 'Project'
-                                                ? 'bg-gray-900 text-white'
+                                                ? 'bg-gray-800 text-white'
                                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                             }
                                         >
@@ -40,7 +40,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                             href='#about'
                                             onClick={() => handlePageChange('About')}
                                             className={(currentPage === 'About'
-                                                ? 'bg-gray-900 text-white'
+                                                ? 'bg-gray-800 text-white'
                                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                             }
                                         >
@@ -50,7 +50,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                             href='#skills'
                                             onClick={() => handlePageChange('Skills')}
                                             className={(currentPage === 'Skills'
-                                                ? 'bg-gray-900 text-white'
+                                                ? 'bg-gray-800 text-white'
                                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                             }
                                         >
@@ -84,7 +84,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                 href='#projects'
                                 onClick={() => handlePageChange('Project')}
                                 className={(currentPage === 'Project'
-                                    ? 'bg-gray-900 text-white'
+                                    ? 'bg-gray-800 text-white'
                                     : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                 }
                                 aria-current='true'
@@ -95,7 +95,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                 href='#about'
                                 onClick={() => handlePageChange('About')}
                                 className={(currentPage === 'About'
-                                    ? 'bg-gray-900 text-white'
+                                    ? 'bg-gray-800 text-white'
                                     : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                 }
                             >
@@ -105,7 +105,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                                 href='#skills'
                                 onClick={() => handlePageChange('Skills')}
                                 className={(currentPage === 'Skills'
-                                    ? 'bg-gray-900 text-white'
+                                    ? 'bg-gray-800 text-white'
                                     : 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                 }
                             >
