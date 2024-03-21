@@ -4,6 +4,7 @@ import About from "./About";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Skills from "./Skills";
+import Contact from "./Contact";
 
 
 export default function Container() {
@@ -27,6 +28,7 @@ export default function Container() {
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Contact />
             <Footer />
         </div>
     );
