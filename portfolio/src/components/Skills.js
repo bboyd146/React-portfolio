@@ -164,14 +164,10 @@ function Skills() {
                             <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
-                                    <div className="text-white absolute bottom-0 left-0 bg-yellow-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" />
-                                            <rect x={3} y={4} width={18} height={12} rx={1} />
-                                            <line x1={7} y1={20} x2={17} y2={20} />
-                                            <line x1={9} y1={16} x2={9} y2={20} />
-                                            <line x1={15} y1={16} x2={15} y2={20} />
-                                        </svg>
+                                    <div className="text-white absolute bottom-0 left-0  rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                            <path d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z"></path>
+                                        </svg>                                    
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -182,13 +178,7 @@ function Skills() {
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="text-white absolute bottom-0 left-0 bg-yellow-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" />
-                                            <rect x={3} y={4} width={18} height={4} rx={2} />
-                                            <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-                                            <line x1={10} y1={12} x2={14} y2={12} />
-                                        </svg>
-                                    </div>
+                                        <img src="https://www.cdnlogo.com/logos/a/47/apollo-graphql.svg" alt="Apollo-logo"/>                                    </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                                     Apollo
@@ -197,17 +187,23 @@ function Skills() {
                             <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                                 <div className="w-20 h-20 relative ml-6">
                                     <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
-                                    <div className="text-white absolute bottom-0 left-0 bg-yellow-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" />
-                                            <rect x={3} y={4} width={18} height={4} rx={2} />
-                                            <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-                                            <line x1={10} y1={12} x2={14} y2={12} />
-                                        </svg>
+                                    <div className="text-white absolute bottom-0 left-0  rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                        <img src="https://img.icons8.com/ios-filled/50/api-settings.png" alt="Api-logo" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                                     RESTful API
+                                </h4>
+                            </div>
+                            <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
+                                <div className="w-20 h-20 relative ml-6">
+                                    <div className="absolute top-0 right-0 bg-yellow-100 rounded w-16 h-16 mt-2 mr-1" />
+                                    <div className="text-white absolute bottom-0 left-0  rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                    <img src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="Python-logo"/>                                 
+                                    </div>
+                                </div>
+                                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                                    Python
                                 </h4>
                             </div>
                         </div>
