@@ -54,7 +54,7 @@ const Contact = () => {
                     <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Message</label>
                     <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" required className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
                 </div>
-                <button type="submit" className="w-6/12 bg-gray-500 hover:bg-blue-600 mx-auto block text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline">Submit</button>
+                <button type="submit" className="w-6/12 bg-gray-500 hover:bg-blue-600 mx-auto block text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline animate-bounce">Submit</button>
             </form>
         </div>
     );
