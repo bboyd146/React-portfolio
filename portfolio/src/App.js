@@ -6,7 +6,7 @@ function App() {
     document.title = 'My portfolio';
   }, []);
   return (
-    <main className="text-gray-400  body-font">
+    <main className="text-gray-400 scroll-smooth body-font">
       <Container />
     </main>
   );
